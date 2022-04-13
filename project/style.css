@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a:hover{
+    color: fuchsia;
+    font-size: 30px;
+}
+.menu{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    padding: 10px;
+}
+.forma{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
