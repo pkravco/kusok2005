@@ -1,58 +1,54 @@
-html,
-body {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  background-color: black;
+html, body{ 
+    height:  100%;
+    margin: 0px;
+    padding: 0px;
 }
-
-
-.text{
-	height: 45%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-flow: column;
-}
-.name{
-	color: white;
-	font-size: 800%;
-	font-family: "Miratrix";
-	margin: 0px;
-
-}
-
-@font-face {
-font-family: "Miratrix"; 
-
-src: url("font/Miratrix-Normal.otf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-} 
-.podname{
-	color: white;
-	font-family:  "Miratrix";
-	margin: 0px;
-	font-size: 200%;
+h1{
+    color: red;
 }
 a{
-	text-decoration: none;
-	color: white;
-	transition: 0.5s linear;
+    text-decoration: none;
 }
-.nav{
-	height: 100px;
-	margin: 0;
-	width: 100px;
-	color: white;
-	font-size: 250%;
-	font-family: "Miratrix"; 
-	display: flex;
-	flex-flow: column;
-	padding: 40px;
-	justify-content: space-between;
-	
+li{
+    list-style: none;
 }
 a:hover{
-	color: red;
+    color: fuchsia;
+    font-size: 30px;
+}
+.menu{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    padding: 10px;
+}
+.forma{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    
+}
+.forma form{
+    display: flex;
+      
+    flex-direction: column;
 }
